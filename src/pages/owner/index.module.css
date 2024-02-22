@@ -1,0 +1,54 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: center; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+  
+.avatarContainer {
+    margin-bottom: 20px; /* 添加底边距，让后面的内容与头像之间有一些间隔 */
+    margin-top: 80px;
+
+}
+
+.titleContainer{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: center; 
+    font-size: large;
+}
+
+
+.twCard{
+    margin-top: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+    height: 100px;
+}
+  
+.footer a {
+    margin: 0 10px; /* 调整链接之间的间距 */
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 5px; /* 图标和文字距离控制 */
+}
